@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+/*
+[class*="w"] {
+  margin-right: 1rem;
+}
+*/
+.w-25 {
+  width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-50 {
+  width: 50%;
+  overflow: "hidden";
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.content > div {
+  margin-right: 1rem;
+}
+.content > div:last-child {
+  margin-right: 0rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
